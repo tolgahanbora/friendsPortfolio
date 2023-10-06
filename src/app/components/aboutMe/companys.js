@@ -11,7 +11,7 @@ function Companys() {
             </div>
             <div className='content flex items-center'>
             <div className='image mr-4'>
-              <img src='/finfree.png' alt='Sol Görsel' className="h-20" id='finfreeMobilLogo'/>
+              <img src='/Finfree.png' alt='Sol Görsel' className="h-20" id='finfreeMobilLogo'/>
             </div>
             <div className='details'>
               <h3 className='text-md font-bold my-2 companyH3'>UX/UI Designer at Finfree </h3>
