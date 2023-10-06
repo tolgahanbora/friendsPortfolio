@@ -1,0 +1,414 @@
+/* globals.css */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  --background-color: #F3F1EF;
+  /* Renk kodunu burada belirtin */
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: #1A202C;
+    /* Koyu tema için farklı bir renk belirtin */
+  }
+}
+
+body {
+  background-color: var(--background-color);
+  /* Tanımlanan değişkeni kullanarak arka plan rengini ayarlayın */
+}
+
+h2 {
+  color: #454B48;
+  line-height: 15;
+
+}
+
+h4 {
+  color: #454B48;
+}
+
+h5 {
+  color: #454B48;
+}
+
+h6 {
+  color: #454B48;
+}
+
+h7 {
+  color: #BDBDBD !important
+}
+
+p {
+  color: #454B48;
+
+
+}
+
+.container {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.custom-Button {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  border-radius: 11px;
+  background-color: #F18B40;
+  width: 190px;
+  height: 50px;
+
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+
+}
+
+#up {
+  width: 22px;
+  height: 22px;
+
+}
+
+.backTop-Button {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  border-radius: 11px;
+  background-color: #F1B285;
+  width: 190px;
+  height: 50px;
+color: white;
+
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.backTop-Button:hover {
+  background-color: #F78735;
+}
+
+.custom-Button:hover {
+  background-color: #F78735;
+}
+
+.icon-Button {
+  margin: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.cv-Link {
+  margin-top: 25px;
+  padding-top: 10px;
+  color: #454B48;
+
+}
+
+.toggle-button-container {
+  margin-top: 150px;
+  padding: 0;
+  border-radius: 25px;
+  background-color: #EAEAEA;
+  cursor: pointer;
+  margin-left: 158px;
+  width: fit-content;
+  height: 49px;
+}
+
+#button-Container {
+  padding-left: 4px;
+  padding-right: 4px;
+  font-weight: bold;
+  color: #454B48;
+}
+
+.toggle-button {
+  color: #454B48;
+  border: 2px;
+  width: 200px;
+  border-color: #F6F6F6;
+  border-radius: 25px;
+  height: 45px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  font-size: 16px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+
+.toggle-button.active {
+  background-color: #F6F6F6;
+  color: #454B48;
+}
+
+#worksContainer {
+  margin-left: 17dvh;
+}
+
+
+span {
+  color: #F18B40 !important;
+}
+
+#link-text {
+  color: #F18B40 !important;
+  border-color: #F18B40 !important;
+}
+
+
+#border-footer {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+#aboutH2 {
+  color: #F18B40 !important;
+}
+
+#freelanceH2 {
+  color: #7E8682 !important;
+}
+
+.companyH3 {
+  color: #454B48 !important;
+}
+
+.images{
+  width: 70%;
+  height: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+.certificates-Text {
+  margin: 0px;
+  padding: 0px;
+  color: #1A202C !important;
+}
+
+.borders {
+  border: 3px solid #454B48;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 20vh;
+  margin-top: 39px;
+  transition: background-color 0.3s;
+}
+
+.rectangle {
+  border: 1px solid #F18B40;
+  background-color: #F18B40;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s;
+}
+
+.numberText {
+  font-weight: bold;
+  color: #fcfcfc;
+}
+
+.certificatesText {
+  color: #7E8682;
+}
+
+.content {
+  padding: 10px;
+}
+
+.yearStyle {
+  margin-left: auto;
+  margin-right: 40px;
+  color: #454B48;
+}
+
+.certificatesDate {
+  margin: 0;
+  padding: 0;
+  color: #454B48;
+}
+
+/* Hover durumları */
+.borders:hover {
+  background-color: #454B48;
+}
+
+.borders:hover .rectangle:hover {
+  background-color: #fcfcfc;
+
+}
+
+.borders:hover .rectangle {
+  background-color: #fcfcfc;
+  /* Rectangle rengini değiştir */
+  border-color: #fcfcfc;
+}
+
+.borders:hover .numberText {
+  color: #454B48;
+}
+
+.borders:hover .certificatesText,
+.borders:hover .yearStyle,
+.borders:hover .certificatesDate {
+  color: #fcfcfc;
+}
+
+
+#behancelink{
+  color: #5466FF;
+}
+
+#ok {
+  width: 24px;
+  height: 24px;
+}
+
+li {
+  color: #454B48
+}
+
+.as {
+color: #7E8682
+}
+
+
+/* Mobilde memoji class adını taşıyan görselleri gizle */
+@media (max-width: 640px) {
+  .memoji {
+    display: none;
+  }
+
+  #memojs31{
+    display: none !important;
+  }
+
+
+
+  .toggle-button-container {
+    padding: 0;
+    border-radius: 25px;
+    background-color: #EAEAEA;
+    margin-left: 80px;
+    /* Mobilde sol kenarda daha az boşluk bırakın */
+    width: fit-content;
+    height: 49px;
+  }
+
+  #button-Container {
+    padding-left: 4px;
+    padding-right: 4px;
+    font-weight: bold;
+    color: #454B48;
+  }
+
+  .toggle-button {
+    color: #454B48;
+    border: 2px;
+    width: 150px;
+    /* Mobilde daha dar bir genişlik */
+    border-color: #F6F6F6;
+    border-radius: 25px;
+    height: 45px;
+    padding: 10px 15px;
+    /* Mobilde daha az padding */
+    cursor: pointer;
+    margin-top: 2px;
+    font-size: 14px;
+    /* Mobilde daha küçük font boyutu */
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+  .toggle-button.active {
+    background-color: #F6F6F6;
+    color: #454B48;
+  }
+  
+
+.rectangle{
+  width: 50px !important; 
+  height: 50px !important; 
+}
+.numberText, .certificatesText, .yearStyle{
+  font-size: 9px;
+}
+
+.certificatesDate{
+  font-size: 5px;
+}
+
+
+
+
+
+  
+}
+
+
+@media (max-width: 767px) {
+
+  .borders {
+    border: 3px solid #454B48;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    min-height: 40px; /* Mobilde minimum yükseklik belirle */
+   
+    padding: 10px; /* Mobilde içeriğe biraz boşluk ver */
+    box-sizing: border-box; /* Kenarlık ve içerik kutusu toplam genişliği belirt */
+    transition: background-color 0.3s;
+  }
+  
+
+
+  .rectangle {
+    border: 1px solid #F18B40;
+    background-color: #F18B40;
+    max-width: 40px;
+    max-height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s;
+    margin-right: 15px !important;
+  }
+  
+
+  .numberText, .certificatesText, .yearStyle, .certificatesDate {
+    font-size: 11px !important;
+  }
+
+  .content {
+    padding: 0;
+  }
+}
+
+
+
+
+
